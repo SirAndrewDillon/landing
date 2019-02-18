@@ -15,10 +15,10 @@
      
         <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
       <ul class="menu-items">
-        <li class="nav-link"><a href="index.html">Home</a></li>
-        <li class="nav-link"><a href="#about">About</a></li>
-        <li class="nav-link"><a href="#contact">Contact</a></li>
-        <li class="nav-link"><a href="#video">Cool</a></li>
+         <a class="nav-link" href="#about"><li>About</li></a>
+         <a class="nav-link" href="#video"><li>Cool</li></a>
+         <a class="nav-link" href="#email"><li>Contact</li></a>
+         <a class="nav-link" href="#header"><li>Home</li></a>
         <a class="sitename" href="https://www.dccomics.com/characters/wonder-woman" target="_blank">Wonder Button</a>
          </ul>
     </div>
@@ -123,6 +123,7 @@
   </div>
   </section>
   <!--THIS IS A FLEXBOX PHOTO GALLERY OF CUTE ANIMALS-->
+  <h1 class="animals">So Cute</h1>
   <div class="container">
       <div class="gallery">
         <a class="gallery-item" href="#"><img src="https://ams.cdn.arkadiumhosted.com/assets/arena-4/game/300x300/6b5d091a-437f-4449-b326-3567ce18ddb2/obscureanimalstwo_300x300.png" alt="Headshot of George Washington"><span class="text-wrapper"><span class="name">George Jefferson</span><span class="title">President</span></span></a>
@@ -141,22 +142,25 @@
 
 
 
-
-
        <footer>
-          <div id="sidebar-subscribe-box">
-              <div class="sidebar-subscribe-box-wrapper">
-                <p>Subscribe to my email newsletter & receive updates right in your inbox.</p>
-                <div class="sidebar-subscribe-box-form">
-                 <img src="https://i.pinimg.com/originals/93/02/b8/9302b82927e7de0e41d1f675701f697f.png" width="50px" alt="K. West">
-                  <form id="form" action="https://www.freecodecamp.com/email-submit" target="_blank" class="sidebar-subscribe-box-form" method="post">
-                    <input id="submit" name="uri" type="email"/>
-                    <input id="email" class="sidebar-subscribe-box-email-field" name="email"  autocomplete="on" placeholder="Enter your email address"/>
-                    <input class="sidebar-subscribe-box-email-button" id="contact" title="Y" type="submit" value="Subscribe Now !" />
-                  </form>
-                </div>
-              </div>
-            </div>
+       <div class="search-text"> 
+          <div class="container">
+            <div class="row text-center">
+            
+              <div class="form">
+                  <h4>SIGN UP TO OUR NEWSLETTER</h4>
+                   <form id="form" action="https://www.freecodecamp.com/email-submit" class="form-search form-horizontal">
+                       <input id="email" name="email" type="email" class="input-search" placeholder="Email Address">
+                     
+                       <input id="submit" type="submit" class="btn-search">SUBMIT</input>
+                   </form>
+               </div>
+           
+             </div>         
+          </div>     
+       </div>
+       
+      
        </footer>
        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>
 </body>
